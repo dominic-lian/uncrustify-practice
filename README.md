@@ -22,13 +22,15 @@ brew remove --force uncrustify
 3. 执行下面语句, 双击Uncrustify Objective-C文件,安装服务
 ```
 cd ~/Downloads
-wget --no-check-certificate https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/workflow/Uncrustify_Objective-C.workflow
-Open ~/Downloads
+curl -o Uncrustify_Objective-C.tar https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/workflow/Uncrustify_Objective-C.tar
+tar -zxvf ~/Downloads/Uncrustify_Objective-C.tar -C ~/Downloads
+rm ~/Downloads/Uncrustify_Objective-C.tar
+open ~/Downloads/Uncrustify_Objective-C
 ```
 
 4. 执行下列语句将文件配置文件拷贝进入对应位置
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/cfg/default.cfg.txt
+curl -o default.cfg.txt --no-check-certificate https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/cfg/default.cfg.txt
 mv default.cfg.txt ~/.uncrustify_obj_c.cfg
 ```
 
@@ -47,10 +49,12 @@ mv default.cfg.txt ~/.uncrustify_obj_c.cfg
 3. 使用下面语句安装align_var_def_span打开的版本,可以与上面版本共存
 ```
 cd ~/Downloads
-wget --no-check-certificate https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/workflow/Uncrustify_Objective-C_Variable.workflow
-Open ~/Downloads
-wget --no-check-certificate https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/cfg/default_variable.cfg.txt
-mv default.cfg.txt ~/.uncrustify_obj_c_variable.cfg
+curl -o Uncrustify_Objective-C_Variable.tar https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/workflow/Uncrustify_Objective-C_Variable.tar
+tar -zxvf ~/Downloads/Uncrustify_Objective-C_Variable.tar -C ~/Downloads
+rm ~/Downloads/Uncrustify_Objective-C_Variable.tar
+open ~/Downloads
+curl -o default_variable.cfg.txt --no-check-certificate https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/cfg/default_variable.cfg.txt
+mv default_variable.cfg.txt ~/.uncrustify_obj_c_variable.cfg
 ```
 
 ## 使用快捷键
