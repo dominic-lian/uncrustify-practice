@@ -30,7 +30,7 @@ open ~/Downloads
 
 4. 执行下列语句将文件配置文件拷贝进入对应位置
 ```
-curl -o default.cfg.txt --no-check-certificate https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/cfg/default.cfg.txt
+curl -o default.cfg.txt https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/cfg/default.cfg.txt
 mv default.cfg.txt ~/.uncrustify_obj_c.cfg
 ```
 
@@ -53,7 +53,7 @@ curl -o Uncrustify_Objective-C_Variable.tar https://raw.githubusercontent.com/do
 tar -zxvf ~/Downloads/Uncrustify_Objective-C_Variable.tar -C ~/Downloads
 rm ~/Downloads/Uncrustify_Objective-C_Variable.tar
 open ~/Downloads
-curl -o default_variable.cfg.txt --no-check-certificate https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/cfg/default_variable.cfg.txt
+curl -o default_variable.cfg.txt https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/cfg/default_variable.cfg.txt
 mv default_variable.cfg.txt ~/.uncrustify_obj_c_variable.cfg
 ```
 
