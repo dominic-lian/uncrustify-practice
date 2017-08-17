@@ -25,7 +25,7 @@ cd ~/Downloads
 curl -o Uncrustify_Objective-C.tar https://raw.githubusercontent.com/dominic-lian/uncrustify-practice/master/workflow/Uncrustify_Objective-C.tar
 tar -zxvf ~/Downloads/Uncrustify_Objective-C.tar -C ~/Downloads
 rm ~/Downloads/Uncrustify_Objective-C.tar
-open ~/Downloads/Uncrustify_Objective-C
+open ~/Downloads
 ```
 
 4. 执行下列语句将文件配置文件拷贝进入对应位置
