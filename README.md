@@ -2,6 +2,8 @@
 
 Uncrustify 使用指南
 
+本文首次发表地址[https://www.dominic-lian.space/?p=126](https://www.dominic-lian.space/?p=126)
+
 本源仅针对的是Objective-C语言
 
 ## 安装
