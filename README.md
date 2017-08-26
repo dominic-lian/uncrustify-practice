@@ -2,7 +2,7 @@
 
 Uncrustify 使用指南
 
-本文首次发表地址[https://www.dominic-lian.space/?p=126](https://www.dominic-lian.space/?p=126)
+本文首次发表地址[Uncrustify 使用指南](https://www.dominic-lian.space/2016-12/post-126)
 
 本源仅针对的是Objective-C语言
 
